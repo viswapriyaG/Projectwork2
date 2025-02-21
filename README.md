@@ -17,46 +17,47 @@ It identifies phishing websites by analyzing their URL structure, content, and v
 ## Requirements
 <!--List the requirements of the project as shown below-->
 *Operating System: Requires a 64-bit OS (Windows 10, Ubuntu 20.04, or macOS) for compatibility with machine learning libraries.
+
 *Development Environment: Python 3.7 or later is necessary for implementing phishing detection models.
-*Machine Learning Libraries: Scikit-learn is used for training classifiers like Random Forest, SVM, and Gradient Boosting.
+
+*Machine Learning Libraries: Scikit-learn is used for training classifiers like Random Forest, Logistic Regression, SVM, and Gradient Boosting.
+
 *Feature Extraction Libraries: BeautifulSoup for parsing HTML content and extracting phishing indicators.
+
 *Data Normalization & Balancing: MinMaxScaler for feature scaling and SMOTE for handling class imbalances.
+
 *Model Persistence: Joblib is used to save and load trained machine learning models.
+
 *Automation & Screenshot Capture: Pyppeteer for capturing website screenshots and visual analysis.
+
 *Version Control: Git is recommended for collaborative development and project version management.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
+![system_architecture](https://github.com/user-attachments/assets/18ddab4b-6856-436b-9890-3c68bad4cf89)
 
 
 
 ## Output
 
+#### Output1 - Model Evaluation and Accuracy.
+
+![Screenshot 2025-02-21 182226](https://github.com/user-attachments/assets/f5cae404-b289-4740-b1df-a8aa6982bc3a)
 
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output2 - Final Output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Screenshot 2025-02-21 181558](https://github.com/user-attachments/assets/f6b00792-eacd-43dc-941e-476d4a1c699f)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Detection Accuracy: 96.8% (Random Forest Classifier)
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The proposed system effectively detects phishing websites by analyzing URL structures for anomalies, evaluating website content using Machine learning models to identify malicious patterns, and utilizing Pyppeteer for capturing website screenshots and visual analysis. The use of ensemble classification ensures that predictions from all components are combined to improve accuracy and Use the trained ML model to classify the website as "Phishing" or "Legitimate."
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+1. U. Zara, K. Ayyub, H. Ullah Khan, A. Daud, T. Alsahfi and S. Gulzar Ahmad, "Phishing Website Detection Using Deep Learning Models," in IEEE Access, vol. 12, pp. 167072-167087, 2024, doi: 10.1109/ACCESS.2024.3486462.
+2. L. R. Kalabarige, R. S. Rao, A. Abraham and L. A. Gabralla, "Multilayer Stacked Ensemble Learning Model to Detect Phishing Websites," in IEEE Access, vol. 10, pp. 79543-79552, 2022, doi: 10.1109/ACCESS.2022.3194672.
